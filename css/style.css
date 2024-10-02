@@ -99,20 +99,5 @@ img {
     padding-left: 10px;
   }
 }
-footer.footer {
-  width: 100%;
-  padding: 40px 0;
-  position: absolute;
-  bottom: 0;
-  background-color: #121212;
-}
 
-.autor {
-  text-align: center;
-}
-
-.autor h3 {
-  color: white;
-  font-size: 15px;
-  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
