@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Poppins",sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+
+img {
+    opacity: 0;
+    width: 25px;
+}
+
+.container {
+    background-color: #575555;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid #8d8d8d;
+    padding: 20px;
+    margin: 100px auto 0;
+}
+
+.input-task {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.button-add-task {
+    border: none;
+    float: right;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #003329;
+    color:#ffff;
+    font-size: 17px;
+    padding:0 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button-add-task:hover {
+    opacity: 0.8;
+}
+
+.button-add-task:active {
+    opacity: 0.6;
+}
+
+.list-task {
+    width:100%;
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 50px;
+    background-color: #ffff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color:#121212;
+    box-shadow: 1px 4px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.task:hover {
+    img {
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out;
+    }
+}
+
+
+.done {
+    background-color: #8fac55;
+    text-decoration: line-through;
+}
+
+@media screen and (max-width:580px) {
+    .container {
+         width: 379px;
+        
+    }
+
+    .input-task {
+        width: 200px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+
+}
+
+footer.footer {
+    width: 100%;
+    padding: 40px 0;
+    position: absolute;
+    bottom: 0;
+    background-color: #121212;
+}
+
+.autor {
+    text-align: center;
+}
+
+.autor {
+    h3 {
+        color: #ffff;
+        font-size: 15px;
+        font-weight: bold;
+       
+    }
+}
